@@ -61,7 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// RefuelMind Therapeutic Colors
+				'therapy-primary': 'hsl(var(--therapy-primary))',
+				'therapy-secondary': 'hsl(var(--therapy-secondary))',
+				'therapy-accent': 'hsl(var(--therapy-accent))',
+				'therapy-warm': 'hsl(var(--therapy-warm))',
+				'therapy-calm': 'hsl(var(--therapy-calm))',
+				'therapy-gentle': 'hsl(var(--therapy-gentle))'
+			},
+			fontFamily: {
+				'comic': ['Comic Neue', 'cursive', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
